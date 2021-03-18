@@ -1,0 +1,95 @@
+#offers {
+  background: #f2f2f2;
+  padding: 4rem 0;
+}
+
+.prices {
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 2rem;
+  align-items: flex-end;
+}
+
+.priceHour {
+  background: #005499;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 120px;
+  padding: 0rem 1rem;
+}
+
+.priceHour h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #fff
+}
+
+.priceHour span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #fff
+}
+
+.description {
+  background: #0088ED;
+  color: #fff;
+  font-size: 0.9rem;
+  height: 100px;
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+}
+
+.description1 {
+  background: #0088ED;
+  color: #fff;
+  font-size: 0.9rem;
+  height: 150px;
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+}
+
+.description2 {
+  background: #0088ED;
+  color: #fff;
+  font-size: 0.9rem;
+  height: 200px;
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+}
+
+.description3 {
+  background: #0088ED;
+  color: #fff;
+  font-size: 0.9rem;
+  height: 250px;
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+}
+
+.description4 {
+  background: #0088ED;
+  color: #fff;
+  font-size: 0.9rem;
+  height: 300px;
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+}
+.description5 {
+  background: #0088ED;
+  color: #fff;
+  font-size: 0.9rem;
+  height: 350px;
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+}
+

@@ -1,0 +1,35 @@
+header {
+  background-image: url('../assets/Asset\ 3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header img {
+  max-width: 100%;
+}
+
+header h1 {
+  font-size: 4rem;
+  line-height: 1.5em;
+  color: #fff
+}
+
+header button {
+  padding: 1rem 6rem;
+  color: #3f3f3f;
+  font-weight: 800;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+
+header button:hover {
+  filter: brightness(0.9)
+}
+
